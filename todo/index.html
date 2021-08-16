@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Todo app</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Gowun+Batang&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body class="container">
+	<header class="logo">
+        <a href="https://codingthesmartway.com" target="_blank">
+            <img class="logo" src="images/ctsw-logo.png" alt="CodingTheSmartWay.com">
+        </a>
+
+        <h2 class="headline">Todo App</h2>
+    </header>
+    <div class="main"> 
+        <form>
+            <input type="text" id="itemInput" placeholder="New Todo ...">
+            <button type="submit" id="addTodo"><i class="fas fa-plus-square"></i></button>
+        </form>
+        <div class="todolist">
+            <ul>
+            </ul>
+            <a class="clearAll" id="clearAll">Clear All</a>
+            <a class="clearAll" id="sortTodoBtn">Sort</a>
+        </div>
+    </div>
+
+
+
+	<script type="module" src="app.js"></script>
+</body>
+</html>
